@@ -30,7 +30,18 @@ Before using these files, make sure you have the following set up:
 
 3. Apply the Kubernetes configurations using "kubectl" with order:
   ```bash
-  kubectl apply -f mongodb-secret.yaml
-  kubectl apply -f mongodb-configmap.yml
-  kubectl apply -f mongo-depl.yaml
-  kubectl apply -f mongo-express.yml
+     kubectl apply -f mongodb-secret.yaml
+     kubectl apply -f mongodb-configmap.yml
+     kubectl apply -f mongo-depl.yaml
+     kubectl apply -f mongo-express.yml
+
+4. Access MongoDB Express:
+   ```bash
+     minikube service mongo-express-service
+
+5. Cleaning up:
+   ```bash
+     kubectl delete -f mongodb-secret.yaml
+     kubectl delete -f mongodb-configmap.yml
+     kubectl delete -f mongo-depl.yaml
+     kubectl delete -f mongo-express.yml
