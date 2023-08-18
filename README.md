@@ -17,22 +17,20 @@ Before using these files, make sure you have the following set up:
 1. Kubernetes cluster up and running with `minikube start`.
 2. `kubectl` command-line tool installed and configured to interact with your cluster.
 3. Docker images for MongoDB and MongoDB Express accessible.
-# Project Name Readme
 
-Welcome to the project! This repository contains configurations for deploying MongoDB and MongoDB Express using Kubernetes. Follow the steps below to get started.
 
 ## Instructions
 
 1. **Clone this repository** to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/MrRfifa/MongoDB-MongoExpress-Kubernetes
     ```
 
 2. **Navigate to the cloned directory**:
 
     ```bash
-    cd your-repo
+    cd MongoDB-MongoExpress-Kubernetes
     ```
 
 3. **Apply the Kubernetes configurations** in the following order:
